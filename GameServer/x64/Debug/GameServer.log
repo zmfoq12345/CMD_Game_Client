@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\anihy\source\repos\CMD_Game_Client\GameServer\MyForm.h(209,24): warning C4101: 'ex' :참조되지 않은 지역 변수입니다.
+C:\Users\anihy\source\repos\CMD_Game_Client\GameServer\MyForm.h(216,22): warning C4101: 'ex' :참조되지 않은 지역 변수입니다.
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  MyForm.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  GameServer.vcxproj -> C:\Users\anihy\source\repos\CMD_Game_Client\x64\Debug\GameServer.exe

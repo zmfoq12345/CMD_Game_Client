@@ -1,0 +1,20 @@
+﻿  AssemblyInfo.cpp
+  GameClient.cpp
+  MyForm.cpp
+c:\users\user\source\repos\socket_game\gameclient\myform.h(236): error C2535: 'void GameClient::MyForm::fontLinkLabel_LinkClicked(System::Object ^,System::Windows::Forms::LinkLabelLinkClickedEventArgs ^)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(193): note: 'GameClient::MyForm::fontLinkLabel_LinkClicked' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(246): error C2535: 'void GameClient::MyForm::colorLinkLabel_LinkClicked(System::Object ^,System::Windows::Forms::LinkLabelLinkClickedEventArgs ^)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(202): note: 'GameClient::MyForm::colorLinkLabel_LinkClicked' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(256): error C2086: 'System::Net::Sockets::Socket ^GameClient::MyForm::client': 재정의
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(210): note: 'GameClient::MyForm::client' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(257): error C2086: 'System::Net::IPEndPoint ^GameClient::MyForm::IP': 재정의
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(211): note: 'GameClient::MyForm::IP' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(258): error C2086: 'System::Threading::Thread ^GameClient::MyForm::clientThread': 재정의
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(212): note: 'GameClient::MyForm::clientThread' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(261): error C2535: 'void GameClient::MyForm::MyForm_Load(System::Object ^,System::EventArgs ^)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(215): note: 'GameClient::MyForm::MyForm_Load' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(268): error C2535: 'void GameClient::MyForm::enterButton_Click(System::Object ^,System::EventArgs ^)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(220): note: 'GameClient::MyForm::enterButton_Click' 선언을 참조하십시오.
+c:\users\user\source\repos\socket_game\gameclient\myform.h(287): error C2535: 'void GameClient::MyForm::backgroundWorker1_DoWork(System::Object ^,System::ComponentModel::DoWorkEventArgs ^)': 멤버 함수를 이미 정의했거나 선언했습니다.
+  c:\users\user\source\repos\socket_game\gameclient\myform.h(232): note: 'GameClient::MyForm::backgroundWorker1_DoWork' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...

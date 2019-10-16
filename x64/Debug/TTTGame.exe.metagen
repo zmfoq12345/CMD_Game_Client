@@ -1,0 +1,45 @@
+  GameClient.Con_form.resources - Embedded, ContainedInManifestFile, 
+  GameClient.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly TTTGame, Version=0.0.*, Culture=고정 언어(고정 국가): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly FormatterText, Version=1.0.*, Culture=고정 언어(고정 국가): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GameClient.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button enterButton : Public
+    System.Windows.Forms.TextBox ipTextBox : Public
+    System.Windows.Forms.RichTextBox inputTextBox : Public
+    System.Net.Sockets.Socket client : Public
+    System.Net.IPEndPoint IP : Public
+    System.Threading.Thread clientThread : Public
+    Int32 MyTTTData : Public
+    Int32 player : Public
+    Int32 order : Public
+    Int32 check : Public
+    System.String User_Name : Public
+    System.String square : Public
+    System.String ex : Public
+    System.String Test : Public
+    System.String Turn : Public
+    System.String mark : Public
+  Methods:
+    Serialize(StructChat): PrivateScope, Public, HideBySig
+    Deserialize(Byte[]): PrivateScope, Public, HideBySig
+Class GameClient.Con_form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
